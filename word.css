@@ -1,0 +1,65 @@
+body {
+  background-color: darkcyan;
+}
+
+h1 {
+  color: turquoise;
+  background-color: tomato;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 2%;
+}
+.my-form,
+.secondSection {
+  background-color: cadetblue;
+  width: 50%;
+  height: 70%;
+  margin-left: 17.5rem;
+  padding: 5rem;
+}
+
+.error {
+  background-color: orangered;
+  color: white;
+  padding: 4px;
+  margin-left: 0.2rem;
+  margin-bottom: 5px;
+  width: 20%;
+}
+.name {
+  margin-bottom: 2rem;
+}
+
+#name,
+#resultId {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 130%;
+  width: 46rem;
+  padding-bottom: 10rem;
+}
+
+#text-label,
+#result-label {
+  font-weight: bold;
+  font-size: 150%;
+  font-family: monospace;
+}
+
+#submit {
+  font-family: monospace;
+  font-size: 200%;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+#submit:hover {
+  color: lightslategrey;
+  background-color: black;
+}
+
+.items {
+  list-style: none;
+  margin-left: 22%;
+}
